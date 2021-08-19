@@ -1,0 +1,781 @@
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    line-height: 30px;
+}
+
+#bodyNormal{
+    padding-top: 130px;
+}
+
+#bodyExtendido{
+    padding-top: 180px;
+}
+
+#alertaID{
+    opacity:0.7 !important;
+    padding:10px !important;
+    margin-bottom: 3px !important;
+}
+
+#actual td{
+    border:0;
+    padding:0 3px 0 3px;
+}
+
+#permisosDiv{
+    padding-left: 25%;
+}
+
+.reporte{
+    height:37px;
+    border-radius:0 0 40% 40%;
+}
+.reporteVertical{
+    height:60px;
+    width:100px;
+    border-radius:30% 0 0 30%;
+}
+
+#login{
+    background-color: mintcream;
+    opacity: 0.7;
+    border-radius: 70px 20px;
+    margin-top: 120px;
+    z-index: 2;
+}
+
+table .fondoAzul{
+    border-radius: 7px;
+}
+
+.fondoAzul{
+    background-color: #0f0f3d;
+    color: white;
+}
+
+.listaPeriodos{
+    width: 100%;
+}
+
+.listaPeriodos button{
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.listaPeriodos2{
+    width: 90%;
+}
+
+.letraAzul{
+    color: #0f0f3d;
+}
+
+#lugarAlerta{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2 !important;
+}
+
+#login .form-top {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+    text-align: left;
+}
+
+#login .form-top-left {
+    float: left;
+    width: 75%;
+    padding-top: 25px;
+}
+
+#login .form-top-left h3 { margin-top: 0; color: #fff; }
+#login .form-top-left p { opacity: 0.8; color: #fff; }
+
+#login .form-top-right {
+    float: left;
+    width: 25%;
+    padding-top: 5px;
+    font-size: 66px;
+    color: #fff;
+    line-height: 100px;
+    text-align: right;
+    opacity: 1;
+}
+
+#login .form-bottom {
+    padding: 25px 25px 30px 25px;
+    -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+    text-align: left;
+}
+
+#login .form-bottom form textarea {
+    height: 100px;
+}
+
+#login .form-bottom form button.btn {
+    width: 100%;
+}
+
+#login .form-bottom form .input-error {
+    border-color: #de615e;
+}
+
+#login input{
+    background-color: white;
+    color: #0f0f3d;
+}
+
+#login h4{
+    color: darkgrey;
+}
+
+#encabezado{
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 90px;
+}
+
+#cuerpoEncab{
+    padding: 15px 25px 0px 25px;
+}
+
+#contenidoEncab{
+    width: 100%;
+}
+
+#contenidoEncab a{
+    font-size: 12px;
+    color: black;
+}
+
+#menuConfig{
+    height: 60px;
+    background-color: mintcream;
+    border-radius: 7px;
+}
+
+#logoLogin img{
+    width: 70px;
+}
+
+#logo img{
+    width: 65px;
+}
+
+#nombreEmp{
+    font-size: 23px;
+    font-family: 'Times';
+}
+
+#logo{
+    float:left;
+    width: 80px;
+    padding: 6px 5px 5px 5px;
+    text-align: center;
+    opacity: 1;
+}
+
+#contenido{
+    width: 100%;
+    height: 100%;
+    min-height: 630px;
+    background-color: white;
+    color: #888;
+}
+.white-popup-block {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+    border-radius: 8px;
+}
+.white-popup-block-pequeña {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 450px;
+    margin: 40px auto;
+    position: relative;
+    border-radius: 8px;
+}
+.white-popup-block-mini {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 300px;
+    margin: 40px auto;
+    position: relative;
+    border-radius: 8px;
+}
+
+.my-mfp-slide-bottom .zoom-anim-dialog {
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+
+	-webkit-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-moz-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-ms-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	-o-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+	transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+
+}
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
+	opacity: 1;
+	-webkit-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-moz-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-ms-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-o-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+}
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
+	opacity: 0;
+
+	-webkit-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-moz-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-ms-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-o-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+}
+
+/* Dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg {
+	opacity: 0;
+
+	-webkit-transition: opacity 0.3s ease-out; 
+	-moz-transition: opacity 0.3s ease-out; 
+	-o-transition: opacity 0.3s ease-out; 
+	transition: opacity 0.3s ease-out;
+}
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+#ubicacion{
+    background-color: #0f0f3d;
+    opacity: 0.8;
+    padding: 5px 20px 5px 20px;
+    font-size: 12px;
+}
+
+#tituloPag{
+    font-size: 20px;
+}
+
+#pie{
+    background-color: #0f0f3d;
+    opacity: 1;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#infoSesion{
+    background-color: black;
+    float:left;
+    width: 85%;
+}
+
+#copyright{
+    background-color: #0f0f3d;
+    float: right;
+    width: 15%;
+    height: 100%;
+}
+
+#contenidoEncab .dropdown{
+    display: none;
+}
+
+#contenidoEncab .navbar{
+    display: block;
+}
+
+#contenidoEncab button{
+    background-color: #5bc0de;
+    color: black;
+    border-radius: 0;
+}
+
+.tabs{
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.miBar{
+    background-color: black;
+    font-size: 14px;
+    width: 100%;
+}
+
+.contenedorFIX:first-child{
+    background-color: red;
+}
+
+.miBar a{
+    color: white;
+    text-decoration: none;
+}
+
+.sliderUno{
+    background-color: #2098D1;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.sliderDos{
+    background-color: black;
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+#recuperacion{
+    padding: 0px 25% 5% 25%;
+}
+
+#recuperacion .alert{
+    font-size: 13px;
+    padding: 2px;
+}
+
+#controlUsuarios{
+    padding-bottom: 25px;
+}
+
+#contenidoPeriodo{
+    padding: 0 150px 40px 150px;
+}
+
+#contenidoPeriodoAmpliado{
+    padding: 0 20px 40px 20px;
+}
+
+#contenidoPeriodoReducido{
+    padding: 0 300px 40px 300px;
+}
+
+#totalTR td, #totalTR th{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#totalTD{
+    border-left: 1px solid black !important;
+}
+
+.mensual tr td, .mensual tr th{
+    border-bottom: 0 !important;
+}
+
+.decAnt, .movPer{
+    font-size: 12px;
+    color: black;
+}
+
+#bitacora{
+    padding: 0 0 40px 0;
+    font-size: 12px;
+    color: black;
+}
+
+#nuevoUsuario{
+    padding: 0 20% 30px 20%;
+}
+
+#nuevoContribuyente{
+    padding: 40px 25% 30px 25%;
+}
+
+.nota{
+    font-size: 11px;
+    font-style: italic;
+    color: black;
+}
+
+#usuarioExistente{
+    padding: 20px 0 30px 0;
+    font-size: 12px;
+    color: black;
+}
+
+.columOculta{
+    display: none;
+}
+
+#usuarioExistente td, #usuarioExistente th{
+    white-space: normal;
+    text-align: center;
+}
+
+#nuevoContribuyente label, #recuperacion label, #nuevoUsuario label, .emergenteVentana label{
+    font-size: 12.5px;
+    font-style: italic;
+    color: #2098D1;
+}
+
+hr{
+    margin: 0 0 10px 0;
+}
+
+.obligatorio{
+    color: crimson;
+}
+
+.contribuyenteBar{
+    background-color: #0f0f3d;
+    border-radius: 0 5px 5px 0;
+    width: 85%;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    height: 50px;
+    float: right;
+}
+.contribuyenteBar a, .contribuyenteBar button{
+    border-radius: 30px;
+}
+
+.fix1{
+    background-image: url('../imagenes/fondoLogin.jpg');
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.botonColor{
+    background-color: #CDCED1;
+    color: black;
+}
+.botonColor:hover{
+    background-color: #E6E6E6;
+    color: black;
+}
+
+.botonfondoAzul{
+    background-color: #0f0f3d;
+    color: white;
+    border-radius: 30px;
+}
+.btn-danger,.btn-success{
+    border-radius: 30px;
+}
+.botonfondoAzul:hover{
+    background-color: #3B3B63;
+    color: white;
+}
+
+#navegacion{
+    position :absolute; 
+    z-index:2;
+    background-color: #0f0f3d;
+    width: 230px;
+    padding: 0 20px 10px 0px;
+    height: 495px;
+    border-radius: 0 0 30px 0;
+    display: none;
+}
+
+.headerMenu{
+    font-size: 12.7px;
+    color: white;
+}
+
+#navegacion li{
+    list-style: none;
+}
+
+#navegacion a{
+    color: white;
+}
+
+#menuBoton{
+    background-color: #0f0f3d;
+    color: white;
+    display: block;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+#menu{
+    border-top: 1px solid white;
+    float: left;
+    height: 100%;
+    min-height: 50px;
+    background-color: #0f0f3d;
+    width: 15%;
+    border-radius: 5px 0 0 5px;
+}
+
+#cerrarMenu{
+    background-color: #0f0f3d;
+    color: white;
+}
+
+.elementoMenu{
+    padding: 3px;
+}
+
+#navegacion a{
+    font-size: 13.5px;
+    color: white;
+    text-decoration: none;
+}
+
+.elementoMenu:hover{
+    background-color: #3B3B63;
+    color: white;
+    border-radius: 7px;
+    opacity: 0.7;
+}
+
+.divisorMenu{
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.nav2 {
+    float: right;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav2 > li {
+    position: relative;
+    display: inline;
+}
+.nav2 > li > a {
+    position: relative;
+    display: inline;
+    padding: 10px 15px 10px 15px;
+    line-height: 20px;
+    color: white;
+    border-radius: 30px;
+}
+
+.nav2 > li > a:hover,
+.nav2 > li > a:focus {
+    text-decoration: none;
+    background-color: white;
+    color: #0f0f3d;
+}
+.nav2 > li.disabled > a {
+    color: #777;
+}
+.nav2 > li.disabled > a:hover,
+.nav2 > li.disabled > a:focus {
+    color: #777;
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent;
+}
+
+.menuCUExistente{
+    visibility: hidden;
+}
+
+.menuCUExistente td{
+    padding: 0 5px 3px 5px;
+}
+
+#guardarDA{
+    display:none;
+}
+
+.movPerContenido .dataTables_filter{
+    display:none;
+}
+
+.botonesAdministrar button{
+    font-size: 12px;
+}
+
+.botonesAdministrar td{
+    padding: 0 5px 3px 5px;
+}
+
+.movPer th, .movPer td{
+    text-align: center;
+}
+
+#telefono::-webkit-outer-spin-button, #telefono::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#telefono {
+    -moz-appearance:textfield;
+}
+
+.isloading-overlay{position:relative;text-align:center;}
+.isloading-wrapper{
+    width: 100%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: #0f0f3d !important;
+    color:white;
+    font-size: 25px;
+    display:inline-block;
+    margin:0 auto;
+    padding:20px 60px;
+    top:10%;
+    z-index:9000;
+}
+/*<i class="%class% glyphicon-spin"></i>*/
+.loadingGIF {
+    display:    block;
+    margin-left: 40px;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    height:     100%;
+    width:      100%;
+    background: url('../imagenes/ripple.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #204d74; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+@media only screen and (max-width: 1000px){
+    #recuperacion{
+        padding: 0px 10% 10px 10%;
+    }
+    #nuevoUsuario{
+        padding: 0 10% 30px 10%;
+    }
+    #nuevoContribuyente{
+        padding: 40px 10% 30px 10%;
+    }
+    #contenidoPeriodo{
+        padding: 0 100px 40px 100px;
+    }
+    #contenidoPeriodoAmpliado{
+        padding: 0 10px 40px 10px;
+    }
+    #contenidoPeriodoReducido{
+        padding: 0 150px 40px 150px;
+    }
+    #opcMenuConfig4{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #permisosDiv{
+        padding-left: 15%;
+    }
+     #ubicacion{
+        padding: 5px 5px 5px 5px;
+   }
+    #opcMenuConfig3{
+        display: none;
+    }
+    #recuperacion{
+        padding: 0px 10% 10px 10%;
+    }
+    .contribuyenteBar{
+        font-size: 11px;
+    }
+    #contenidoPeriodo, #contenidoPeriodoAmpliado, #contenidoPeriodoReducido{
+        padding: 0 0px 40px 0px;
+    }
+    #nombreEmp{
+        font-size: 18px;
+    }
+    #logo{
+        padding-top: 11px;
+    }
+    #logo img{
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 710px){
+    #opcMenuConfig{
+        font-size: 11px;
+    }
+    #opcMenuConfig2{
+        display: none;
+    }
+    .nav2 > li > a {
+        padding: 10px 7px 10px 7px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #permisosDiv{
+        padding-left: 5%;
+    }
+    .miBar{
+        font-size: 12px;
+    }
+    .tabs{
+        font-size: 13px;
+    }
+    .contribuyenteBar{
+        font-size: 10px;
+    }
+    #opcMenuConfig{
+        display: none;
+    }
+    #primeraOpcion{
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    #logoLogin img{
+        width: 50px;
+    }
+    #contenidoEncab a{
+        font-size: 11px;
+    }
+    #menuSpan{
+        display:none;
+    }
+    #tituloTab{
+        display:none;
+    }
+    #nombreEmp{
+        font-size: 12px;
+    }
+    body{
+        padding-bottom: 25px;
+    }
+    #permisosDiv{
+        padding-left: 0%;
+    }
+}
